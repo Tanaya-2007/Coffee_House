@@ -128,7 +128,7 @@ video {
 #logo{
     width:35%;
     margin:1rem 2rem;
-    filter: invert(0.8);
+    filter: invert(0.6);
 }
 
 .btn{
