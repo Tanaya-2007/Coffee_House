@@ -46,7 +46,7 @@ h3{
     position: relative;
 
     h1{
-        font-size: 6vw;
+        font-size: 7vw;
     }
 }
 
@@ -154,6 +154,7 @@ video {
     display: flex;
     align-items: space-between;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #about-img{
@@ -174,6 +175,7 @@ video {
 }
 
 /* what */
+
 #what{
     width:100%;
     background-color: #fff4f0;
@@ -192,6 +194,7 @@ video {
     display:flex;
     align-items:center;
     justify-content:center;
+    flex-wrap: wrap;
 }
 
 .what-img {
@@ -224,6 +227,8 @@ video {
     }
 }
 
+/* FAQs */
+
 #faq{
     width:100%;
     padding:8rem;
@@ -235,8 +240,9 @@ video {
 
 .faq-content{
     display:flex;
-    align-items:space-around;
-    justify-content:space-around;
+    align-items:center;
+    justify-content:center;
+
 }
 
 .faq-info{
@@ -267,6 +273,8 @@ video {
     }  
 
 }
+
+/* contact us */
 
 #contact{
     width:100%;

@@ -20,7 +20,9 @@
         justify-content:center;
         margin-top: 20%;
     }
-
+    .faq-content{
+        flex-wrap: wrap;
+    }
 }
 @media screen and (max-width: 900px){
    
