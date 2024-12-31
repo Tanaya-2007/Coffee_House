@@ -42,9 +42,12 @@ h3{
 #hero {
     width: 100%;
     height: 100vh;
-    color: #ffffffb7;
+    color: #ffffffd8;
     position: relative;
-
+    background:linear-gradient(#000000d9,#000000b0),url('home1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     h1{
         font-size: 7vw;
     }
@@ -125,7 +128,7 @@ video {
 #logo{
     width:35%;
     margin:1rem 2rem;
-    filter: invert(0.6);
+    filter: invert(0.8);
 }
 
 .btn{
