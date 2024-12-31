@@ -25,7 +25,9 @@
     }
 }
 @media screen and (max-width: 900px){
-   
+   .nav-container{
+    display: none;
+   }
 }
 @media screen and (max-width: 800px){
    
