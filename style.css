@@ -18,7 +18,7 @@ scroll-behavior: smooth;
 
 p{
 font-size: 1.5vw;
-line-height: 2.5rem;
+line-height: 2vw;
 letter-spacing: 0.5rem;
 }
 
@@ -162,6 +162,10 @@ video {
 
 #about-img{
     width: 100%;
+}
+.about-img{
+    justify-self: flex-end;
+
 }
 
 .about-info{

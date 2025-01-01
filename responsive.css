@@ -23,16 +23,102 @@
     .faq-content{
         flex-wrap: wrap;
     }
+    .about-content {
+        display: grid;
+    }
 }
 @media screen and (max-width: 900px){
    .nav-container{
     display: none;
    }
+   #about-img {
+    width: 400px;
 }
-@media screen and (max-width: 800px){
-   
-  
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.about-info{
+    margin-bottom: 5rem;
+    width: 400px;
+}
+.main-div {
+    gap: 6rem;
+}
+.faq-img {
+    width: 450px;
+}
+.faq-info {
+    width: 450px;
+    margin-top: 5rem;
+}
+p {
+    font-size: 1.6rem !important;
+    line-height: 2vw;
+    letter-spacing: 0.5rem;
+}
+#philosophy h2 {
+    word-spacing: 1rem;
+    font-size: 5vw;
+    font-family: "Nunito", serif;
+    line-height: 5.5vw;
+}
+h3 {
+    font-family: "Nunito", serif;
+    font-size: 2vw;
+}
+}
+
 @media screen and (max-width: 400px){
-  
+    .last {
+       line-height: 2rem;
+    }
+    h1 {
+        font-size: 9vw;
+    }
+    #contact {
+        padding: 10rem 2rem;
+    }
+    p {
+        line-height: 2.5rem;
+    }
+    .faq-info {
+        width: 90%;
+        margin: 3rem 0 0 0 ;
+    }
+    .faq-img {
+        width: 313px;
+    }
+    .part1 h1{
+        font-size: 7vw;
+    }
+    #philosophy h2 {
+        font-size: 5.5vw;
+        line-height: 7.7vw;
+    }
+    h3 {
+        font-size: 3vw;
+    }
+    .what-content h1 {
+        font-size: 8vw;
+    }
+    #what {
+        padding: 4rem 2rem;
+    }
+    .main-div {
+        gap: 4rem;
+    }
+    #about-img {
+        width: 350px;
+    }
+    #about {
+        padding: 0 2rem;
+    }
+    h1 {
+        font-size: 9vw;
+    }
+    .hero-sub {
+        text-align: center;
+    }
 }
