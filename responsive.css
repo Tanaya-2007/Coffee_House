@@ -114,11 +114,18 @@ h3 {
     }
     #about {
         padding: 0 2rem;
+        
+        h1{
+            font-size: 8.5vw;
+        }
     }
     h1 {
         font-size: 9vw;
     }
     .hero-sub {
         text-align: center;
+    }   
+    .hero-sub {
+        padding: 0 2rem;
     }
 }
