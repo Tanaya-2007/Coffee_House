@@ -70,6 +70,23 @@ h3 {
 }
 }
 
+@media screen and (max-width: 800px){
+    #about {
+        padding: 0 2rem;
+    }
+    #about h1 {
+        font-size: 6vw;
+    }
+    #about-img {
+        width: 80%;
+    }
+    .about-content{
+        width:90%;
+    }
+   
+    
+}
+
 @media screen and (max-width: 500px){
     .about-info p {
         line-height: 2.5rem;
@@ -93,11 +110,24 @@ h3 {
         padding: 6rem 2rem;
     }
     h1 {
-        font-size: 9vw;
+        font-size: 8vw;
     }
     p {
         line-height: normal;
     }
+    #what {
+        padding: 4rem 2rem;
+    }
+    .what-img {
+        width: 70%;
+    }
+    p {
+        line-height: 5vw;
+    }
+    #faq {
+        padding: 8rem 2rem;
+    }
+
 }
 
 @media screen and (max-width: 400px){
